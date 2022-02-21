@@ -1,10 +1,16 @@
 let guess = document.querySelector(".guess")
 let submitGuessBtn = document.querySelector(".submit")
 let message = document.querySelector(".message")
+let newGame = document.querySelector(".newGameMsg")
 let randomNumber = Math.ceil((Math.random() * 100))
 
-submitGuessBtn.addEventListener('click', guessGame)
 
+function newGameMessage(){
+    newGame.innerHTML = "New game started!"
+    setTimeout(() => { newGame.innerHTML = "" }, 3000);
+}
+
+submitGuessBtn.addEventListener('click', guessGame)
 function guessGame() {
     let userGuess = guess.value
 

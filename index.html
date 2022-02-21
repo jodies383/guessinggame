@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    Guessing game
-    <input type="number" class="guess">
-    <button class="submit">Guess</button>
-    <div class="message"></div>
+<body onload="newGameMessage()">
+    <div class="container">
+       <h1>Guessing game</h1> 
+        <div class="newGameMsg"></div>
+        <input type="number" class="guess">
+        <button class="submit">Guess</button>
+        <div class="message"></div>
+    </div>
 </body>
 <script src="index.js"></script>
 </html>

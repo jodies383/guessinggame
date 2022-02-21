@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* body{
+    padding: 0;
+    margin: 0;
+} */
+.container {
+    display: flex;
+    flex-direction: column;
+    font-size: 180%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    font-size: 200%;
+    font-family: 'Righteous', cursive;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 11px;
+    font-size: 16px;
+    color: white;
+    margin: 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #0c9764;
+    outline: 0;
+  }
+input[type="number"], input[type="search"], input[type="text"], textarea, select {
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    margin: 10px;
+
+}
