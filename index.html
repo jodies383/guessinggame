@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Guessing Game</title>
 </head>
-<body onload="newGameMessage()">
+<body>
     <div class="container">
        <h1>Guessing Game</h1> 
        <p>guess the secret number between 1 and 100...</p>
         <div class="newGameMsg" id="newGameMsg"></div>
         <div class="message" id="message"></div>
-        <input type="number" class="guess">
+        <input type="number" class="guess" min="1" max="100">
         <button class="submit">Guess</button>
     </div>
 </body>
 <script src="index.js"></script>
+<script src="app.js"></script>
 </html>
