@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 body{
     background: hsla(154, 100%, 76%, 1);
     background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+    font-family: 'Quicksand', sans-serif;
 }
 .container {
     display: flex;
@@ -31,7 +33,7 @@ button:hover {
     cursor: pointer;
     background-color: hsla(288, 100%, 81%, 1);
     outline: 0;
-  }
+}
 input[type="number"], input[type="search"], input[type="text"], textarea, select {
     height: 38px;
     padding: 6px 10px;
