@@ -12,12 +12,16 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 5%;
 }
-h1{
-    font-size: 200%;
+h1 {
+    font-size: 230%;
     font-family: 'Righteous', cursive;
     color: white;
+}
+p{
+    font-family: 'Righteous', cursive;
+    color: white;  
 }
 button {
     background-color: rgb(138, 149, 241);
@@ -31,7 +35,7 @@ button {
 }
 button:hover {
     cursor: pointer;
-    background-color: hsla(288, 100%, 81%, 1);
+    background-color: #cc8ddb;
     outline: 0;
 }
 input[type="number"], input[type="search"], input[type="text"], textarea, select {
