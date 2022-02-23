@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <title>Guessing Game</title>
 </head>
+
 <body>
+    <div class="guessCounter">
+        guesses:
+        <div class="guesses">0</div>
+    </div>
     <div class="container">
-       <h1>Guessing Game</h1> 
-       <p>guess the secret number between 1 and 100...</p>
+        <h1>Guessing Game</h1>
+        <p>guess the secret number between 1 and 100<br>in 8 tries or less...</p>
         <div class="message" id="message"></div>
         <input type="number" class="guess" min="1" max="100">
         <button class="submit">Guess</button>
+        <!-- <button class="submit">Try again</button> -->
+
     </div>
 </body>
 <script src="index.js"></script>
 <script src="app.js"></script>
+
 </html>

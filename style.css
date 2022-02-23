@@ -64,3 +64,15 @@ input[type="number"], input[type="search"], input[type="text"], textarea, select
     margin: 10px;
 
 }
+.message{
+    margin: 3%;
+}
+.guessCounter{
+    float: right;
+    text-align: center;
+    margin-top: -4.8%;
+    padding: 9px 9px;
+    background-color: #cc8ddb;
+    border-radius: 40px;
+    color: white;
+}
