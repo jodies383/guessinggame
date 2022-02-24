@@ -39,18 +39,19 @@ function guessGame() {
             setTimeout(() => { randomNumber }, 5000))
 
     }
-    if (count >= 8 && userGuess != randomNumber) {
-        count = 0
-        guess.value = ''
-        message.innerHTML = `Oh no! the number was ${randomNumber}`
-        document.getElementById("message").style.color = "#f57542";
-        setTimeout(() => { message.innerHTML = "New game started" }, 2000)
-        setTimeout(() => { document.getElementById("message").style.color = "green"; }, 2000)
-        setTimeout(() => { message.innerHTML = "" }, 5000);
-        randomNumber = Math.ceil((Math.random() * 100),
-            setTimeout(() => { randomNumber }, 5000))
-
+    if (count >= 8) {
+        if (userGuess != randomNumber) {
+            count = 0
+            guess.value = ''
+            message.innerHTML = `Oh no! the number was ${randomNumber}`
+            document.getElementById("message").style.color = "#f57542";
+            setTimeout(() => { message.innerHTML = "New game started" }, 2000)
+            setTimeout(() => { document.getElementById("message").style.color = "green"; }, 2000)
+            setTimeout(() => { message.innerHTML = "" }, 5000);
+            randomNumber = Math.ceil((Math.random() * 100),
+                setTimeout(() => { randomNumber }, 5000))
+        }
     }
-    console.log(randomNumber);
+    counter.innerHTML = count
 }
 guess.value = '';
