@@ -66,6 +66,10 @@ input[type="number"], input[type="search"], input[type="text"], textarea, select
 }
 .message{
     margin: 3%;
+    color: #fff;
+}
+.new-game-msg{
+    color: #a05cb1;
 }
 .guessCounter{
     float: right;
