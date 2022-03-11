@@ -28,7 +28,7 @@ submitGuessBtn.addEventListener('click', () => {
                 setTimeout(() => { randomNumber }, 5000))
         }
     }
+    counter.innerHTML = guessInst.returnCount()
 })
-counter.innerHTML = guessInst.returnCount()
 
 guess.value = '';
